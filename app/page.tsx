@@ -43,27 +43,29 @@ export default function TeamAppreciationPage() {
     {
       name: "Sara",
       text:
-        "You've been a true strength for our team since the beginning of the hackathon. Your intelligence, clear thinking, and desire to innovate truly stand out.",
+        "You've been a true strength for our team since the beginning of the hackathon. Your intelligence, clear thinking, and desire to innovate truly stand out. Your decisions are always quick and reliable. And despite your IELTS exam, the way you've remained committed and contributed to the project is truly inspiring. Thank you for being such a strong force.",
     },
     {
       name: "Hussain",
       text:
-        "You initially came just to watch the hackathon, but now you've become one of the most important parts of our team.",
+        "You initially came just to observe the hackathon, but now you've become one of the most important parts of our team. Your ability to understand situations and handle things intelligently is rare. You didn't just participate—you encouraged everyone. We all felt it.",
     },
     {
       name: "Sohil",
       text:
-        "Your work demonstrates your courage. You don't just complete your own tasks—you exceed expectations.",
+        "Your work demonstrates your courage. You don't just complete your own tasks—you exceed others' expectations, support the team, and take on responsibilities beyond your role. This passion drives a team forward, and we're grateful for that.
+",
     },
     {
       name: "Adil",
       text:
-        "From start to finish, you handled both technical and non-technical responsibilities like a true all-rounder.",
+        "From start to finish, you handled both technical and non-technical responsibilities like a true all-rounder. Whenever the team needed something, you were there—active, involved, and ready to take on responsibility. Your versatility made a huge difference.
+",
     },
     {
       name: "Khushboo",
       text:
-        "The dedication you showed was on another level. You worked with sincerity and ownership.",
+        "The dedication you displayed was on a different level. You didn't just treat it as a team project—you worked with ownership and honesty, as if it were your personal mission. No excuses, no delays, just complete commitment. Your attitude set a strong example for all of us.",
     },
   ];
 
