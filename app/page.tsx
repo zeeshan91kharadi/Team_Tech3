@@ -13,21 +13,23 @@ export default function TeamAppreciationPage() {
   const audioRef = useRef(null);
   const [playing, setPlaying] = useState(false);
 
-  useEffect(() => {
-    // Try to play audio if autoplay is allowed; otherwise user can click play.
-    const audio = audioRef.current;
-    if (!audio) return;
-    const tryAutoplay = async () => {
-      try {
-        await audio.play();
-        setPlaying(true);
-      } catch (e) {
-        // Autoplay blocked — wait for user interaction
-        setPlaying(false);
-      }
-    };
-    tryAutoplay();
-  }, []);
+const audioRef = useRef<HTMLAudioElement | null>(null);
+
+useEffect(() => {
+  const audio = audioRef.current;
+  if (!audio) return;
+
+  const tryAutoplay = async () => {
+    try {
+      await audio.play();
+      setPlaying(true);
+    } catch (e) {
+      // autoplay blocked
+    }
+  };
+
+  tryAutoplay();
+}, []);
 
   const togglePlay = () => {
     const audio = audioRef.current;
