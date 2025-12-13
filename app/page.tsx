@@ -45,6 +45,7 @@ export default function TeamAppreciationPage() {
       text:
         "You've been a true strength for our team since the beginning of the hackathon. Your intelligence, clear thinking, and desire to innovate truly stand out. Your decisions are always quick and reliable. And despite your IELTS exam, the way you've remained committed and contributed to the project is truly inspiring. Thank you for being such a strong force.",
     },
+    
     {
       name: "Hussain",
       text:
