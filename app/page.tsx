@@ -45,7 +45,6 @@ export default function TeamAppreciationPage() {
       text:
         "You've been a true strength for our team since the beginning of the hackathon. Your intelligence, clear thinking, and desire to innovate truly stand out. Your decisions are always quick and reliable. And despite your IELTS exam, the way you've remained committed and contributed to the project is truly inspiring. Thank you for being such a strong force.",
     },
-    
     {
       name: "Hussain",
       text:
@@ -54,14 +53,12 @@ export default function TeamAppreciationPage() {
     {
       name: "Sohil",
       text:
-        "Your work demonstrates your courage. You don't just complete your own tasks—you exceed others' expectations, support the team, and take on responsibilities beyond your role. This passion drives a team forward, and we're grateful for that.
-",
+        "Your work demonstrates your courage. You don't just complete your own tasks—you exceed others' expectations, support the team, and take on responsibilities beyond your role. This passion drives a team forward, and we're grateful for that.",
     },
     {
       name: "Adil",
       text:
-        "From start to finish, you handled both technical and non-technical responsibilities like a true all-rounder. Whenever the team needed something, you were there—active, involved, and ready to take on responsibility. Your versatility made a huge difference.
-",
+        "From start to finish, you handled both technical and non-technical responsibilities like a true all-rounder. Whenever the team needed something, you were there—active, involved, and ready to take on responsibility. Your versatility made a huge difference.",
     },
     {
       name: "Khushboo",
